@@ -1,0 +1,414 @@
+.banner{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/07/IMG-20230707-WA0006-3962895528.jpg") no-repeat center center;
+     background-size: cover;
+     width: 100vw;
+     padding-top: 20%;
+     padding-bottom: 20%;
+     margin: 0;
+    color: #fff;
+}
+.navbar-collapse{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #ffffff
+}
+.nav-link{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #ffffff
+}
+
+#title{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #ffffff
+
+}
+
+.display-6{
+    font-style: normal;
+    line-height: 1.6;
+    color: rgb(255, 200, 61);
+    font-size: 30 px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#button{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    border-radius: 50px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    margin-top: 10px;
+}
+
+.display-1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    
+}
+
+#waktu{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1000;
+}
+
+#iden{
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff
+}
+
+.texttgl{
+    font-size: 30px;
+    color: #767676;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+#border{
+    background: linear-gradient(45deg, #149dcc, #e4d295);
+    max-width: 700px;
+    border-radius: 3px;
+}
+
+.number {
+    font-style: normal;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: -2px;
+    font-size: 55px;
+    word-spacing: 0;
+    line-height: 1.3;
+    color: #ffffff;
+}
+
+.kata{
+    font-style: normal;
+    color: #ffffff
+}
+
+#tanggal{
+    font-style: normal;
+    color: #ffffff
+
+}
+
+#tic{
+    font-size: 1,5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.period {
+    display: block;
+    padding-top: 2px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dot {
+    position: absolute;
+    top: -10px;
+    right: -1em;
+    width: 1em;
+    display: block;
+    font-size: 55px;
+    height: 83%;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.65px;
+    text-transform: none;
+    letter-spacing: 0;
+    word-spacing: 0;
+    color: #ffffff;
+}
+
+#icon{
+    margin-top: 60px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    line-height: 1;
+    word-break: break-word;
+    word-wrap: break-word;
+    
+
+}
+
+.kata1{
+    text-align: center;
+    margin: 50;
+}
+
+.banner2{
+    background:linear-gradient(rgba(250, 247, 247, 0.8),rgba(182, 179, 179, 0.8)), url("https://parboaboa.com/data/foto_berita/kantor-min-rmh.webp") no-repeat center center;
+     background-size: cover;
+     width: 100vw;
+     padding-top: 20%;
+     padding-bottom: 20%;
+     margin-top: 50px;
+     color: #fff;
+}
+
+.mbr-section-subtitle {
+    font-style: italic;
+    color: #ff3366;
+}
+
+.about{
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.25rem;
+    font-display: swap;
+    color: #616161;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+.display-5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-display: swap;
+    width: 100%;
+}
+
+#time{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1000;
+    margin-bottom: 50px;
+
+}
+
+.banner3{
+    background:linear-gradient(rgba(250, 247, 247, 0.8),rgba(182, 179, 179, 0.8)), url("https://img1.ak.crunchyroll.com/i/spire2/122bca8ba6b42e037e596b449d5aaf981592179064_full.jpg") no-repeat center center;
+     background-size: cover;
+     width: 100%;
+     padding-top: 20%;
+     padding-bottom: 20%;
+     margin-top: 50px;
+     color: #0b0101;
+}
+body {
+    margin-top: 20px;
+}
+.timeline_area {
+    position: relative;
+    z-index: 1;
+}
+.single-timeline-area {
+    position: relative;
+    z-index: 1;
+    padding-left: 180px;
+}
+@media only screen and (max-width: 575px) {
+    .single-timeline-area {
+        padding-left: 100px;
+    }
+}
+.single-timeline-area .timeline-date {
+    position: absolute;
+    width: 180px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+@media only screen and (max-width: 575px) {
+    .single-timeline-area .timeline-date {
+        width: 100px;
+    }
+}
+.single-timeline-area .timeline-date::after {
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    content: "";
+    background-color: #ebebeb;
+    top: 0;
+    right: 30px;
+    z-index: 1;
+}
+.single-timeline-area .timeline-date::before {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #f1c40f;
+    content: "";
+    top: 50%;
+    right: 26px;
+    z-index: 5;
+    margin-top: -5.5px;
+}
+.single-timeline-area .timeline-date p {
+    margin-bottom: 0;
+    color: #020710;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.single-timeline-area .single-timeline-content {
+    position: relative;
+    z-index: 1;
+    padding: 30px 30px 25px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+    box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+    border: 1px solid #ebebeb;
+}
+@media only screen and (max-width: 575px) {
+    .single-timeline-area .single-timeline-content {
+        padding: 20px;
+    }
+}
+.single-timeline-area .single-timeline-content .timeline-icon {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 30px;
+    height: 30px;
+    background-color: #f1c40f;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30px;
+    flex: 0 0 30px;
+    text-align: center;
+    max-width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.pt-100{
+    padding-top:100px;
+}
+.pb-100{
+    padding-bottom:100px;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title p {
+	color: #777;
+	font-size: 16px;
+}
+.section-title h4 {
+	text-transform: capitalize;
+	font-size: 40px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.section-title h4:before {
+	position: absolute;
+	content: "";
+	width: 60px;
+	height: 2px;
+	background-color: #ff3636;
+	bottom: 0;
+	left: 50%;
+	margin-left: -30px;
+}
+.section-title h4:after {
+	position: absolute;
+	background-color: #ff3636;
+	content: "";
+	width: 10px;
+	height: 10px;
+	bottom: -4px;
+	left: 50%;
+	margin-left: -5px;
+	border-radius: 50%;
+}
+ul.timeline-list {
+	position: relative;
+	margin: 0;
+	padding: 0
+}
+ul.timeline-list:before {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 100%;
+	background-color: #ff3636;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+ul.timeline-list li {
+	position: relative;
+	clear: both;
+	display: table;
+}
+.timeline_content {
+	border: 2px solid #ff3636;
+	background-color:#fff
+}
+ul.timeline-list li .timeline_content {
+	width: 45%;
+	color: #333;
+	padding: 30px;
+	float: left;
+	text-align: right;
+}
+ul.timeline-list li:nth-child(2n) .timeline_content {
+	float: right;
+	text-align: left;
+}
+.timeline_content h4 {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 10px 0;
+}
+ul.timeline-list li:before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 25px;
+	background-color: #ff3636;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+.timeline_content span {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: poppins;
+	color: #ff3636;
+}
+
+.cid-tyw6fpaFW8 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #ffffff;
+}
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
